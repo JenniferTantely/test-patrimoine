@@ -1,10 +1,10 @@
 import { readFile, writeFile } from '../../data/index.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import Patrimoine from "../../models/Patrimoine.js"
-import Personne from "../../models/Personne.js"
-import Possession from "../../models/possessions/Possession.js"
-import Flux from "../../models/possessions/Flux.js"
+import Patrimoine from "../models/Patrimoine.js"
+import Personne from "../models/Personne.js"
+import Possession from "../models/possessions/Possession.js"
+import Flux from "../models/possessions/Flux.js"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

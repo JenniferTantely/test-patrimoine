@@ -1,8 +1,8 @@
 import { readFile, writeFile } from '../../data/index.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import Patrimoine from '../../models/Patrimoine.js';
-import Possession from '../../models/possessions/Possession.js';
+import Patrimoine from '../models/Patrimoine.js';
+import Possession from '../models/possessions/Possession.js';
 
 // chemin absolu
 const __filename = fileURLToPath(import.meta.url);
